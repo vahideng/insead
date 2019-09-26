@@ -1,0 +1,14 @@
+{% import "@macros/forms.twig" as forms %}
+<fieldset>
+    {{forms.input('Search','text','','First Name','Search INSEAD','','','','search')}}
+    {{forms.input('Default','text','','First Name','Enter name','','','')}}
+    {{forms.input('Active','text','active','First Name','Enter name')}}
+    {{forms.input('Filled','text','','First Name','Enter name',"Catherine Lam")}}
+    {{forms.input('Disabled','text','disabled','',"")}}
+    {{forms.input('Error','text','errorTextField','')}}
+    {{ forms.input('Number', 'number') }}
+    {{ forms.textarea('Textarea', 'Enter your message here') }}
+</fieldset>
+
+
+

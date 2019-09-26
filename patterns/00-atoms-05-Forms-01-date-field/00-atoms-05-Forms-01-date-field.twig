@@ -1,0 +1,15 @@
+{% import "@macros/forms.twig" as forms %}
+<fieldset>
+  
+    {{forms.dataField('Default','text','First Name',"")}}
+    {{forms.dataField('Active','text','active','First Name')}}
+    {{forms.dataField('Filled','text','First Name','Enter name')}}
+    {{forms.dataField('Disabled','text','disabled','')}}
+    {{forms.dataField('Error','text','errorTextField','')}}
+    {{ forms.dataField('Number', 'number') }}
+
+</fieldset>
+
+
+
+
